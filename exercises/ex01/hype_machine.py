@@ -1,5 +1,8 @@
-# TODO: Write docstring here
+"""ex01 hype machine exercise for COMP110."""
 
-# TODO: Initialize __author__ variable here
+__author__ = 730395734
 
-# TODO: Implement your program logic here
+name_input_function: str = input("What is your name? ")
+print(str(name_input_function) + ", have an amazing day! ")
+print("Keep up the great programming, " + str(name_input_function) + "!")
+print("You are so cool, " + str(name_input_function) + ", never forget that! ")
