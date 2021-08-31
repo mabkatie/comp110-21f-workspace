@@ -1,6 +1,6 @@
 """ex01 numeric operators exercise for COMP110."""
 
-__author__ = 730395734
+__author__ = "730395734"
 
 first_input_function: str = input("Left-hand side: ")
 second_input_function: str = input("Right-hand side: ")
