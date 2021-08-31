@@ -2,11 +2,11 @@
 
 __author__ = "730395734"
 
-first_input_function: str = input("Left-hand side: ")
-second_input_function: str = input("Right-hand side: ")
-left_hand_number: int = 17
-right_hand_number: int = 8
-print(str(first_input_function) + " < " + str(second_input_function) + " is " + str(bool(left_hand_number < right_hand_number)))
-print("17 >= 8 is " + str(bool(left_hand_number >= right_hand_number)))
-print("17 == 8 is " + str(bool(left_hand_number == right_hand_number)))
-print("17 != 8 is " + str(bool(left_hand_number != right_hand_number)))
+input_variable_one: str = input("Left-hand side: ")
+input_variable_two: str = input("Right-hand side: ")
+left_hand_number: int = int(input_variable_one)
+right_hand_number: int = int(input_variable_two)
+print(input_variable_one + " < " + input_variable_two + " is " + str(bool(left_hand_number < right_hand_number)))
+print(input_variable_one + " >= " + input_variable_two + " is " + str(bool(left_hand_number >= right_hand_number)))
+print(input_variable_one + " == " + input_variable_two + " is " + str(bool(left_hand_number == right_hand_number)))
+print(input_variable_one + " != " + input_variable_two + " is " + str(bool(left_hand_number != right_hand_number)))
